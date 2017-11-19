@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world -w",
+    "start": "nodemon lib/js/src/fizzbuzz.js",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": ["BuckleScript"],
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "2.0.0"
+  },
+  "dependencies": {
+    "nodemon": "1.12.1"
+  }
+}
