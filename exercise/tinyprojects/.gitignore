@@ -2,5 +2,6 @@
 .merlin
 npm-debug.log
 /lib/
+/src/
 /node_modules/
 .bsb.lock
