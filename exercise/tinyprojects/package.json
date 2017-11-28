@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world -w",
-    "start": "nodemon lib/js/src/fibonacci.js",
+    "start": "nodemon lib/js/src/piglatin.js",
     "clean": "bsb -clean-world"
   },
   "keywords": ["BuckleScript"],
